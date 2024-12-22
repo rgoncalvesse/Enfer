@@ -13,7 +13,7 @@ function Knob (name, fn, min, max, initial = 0) {
   this.slider.setAttribute('max', '100')
   this.slider.setAttribute('value', '25')
 
-  const radius = 40
+  const radius = 80
   const padding = 20
   const circ = Math.PI * radius
 
